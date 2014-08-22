@@ -1,0 +1,28 @@
+OpenEmbedded/Yocto BSP Layer from NetModule <www.netmodule.com>.
+This layer contains specific receipes/changes to build images for Enclustra
+ZX3 based evaluation boards, like PM3.
+
+It is hosted at https://github.com/enclustra/meta-enclustra
+
+This layer depends on:
+URI: git://git.yoctoproject.org/poky
+layers: meta, meta-yocto, meta-yocto-bsp
+branch: 1.6
+
+URI: git://git.openembedded.org/meta-openembedded
+layers: meta-oe, meta-networking
+branch: 1.6
+
+URI: git://git.yoctoproject.org/meta-xilinx
+branch: master
+
+URI: git://git.yoctoproject.org/meta-xilinx-community
+branch: master
+
+Please follow the recommended setup procedures of your OE distribution.
+
+Send pull requests, patches, comments or questions to the maintainers listed
+below.
+
+Maintainers:    Sven Meier   <sven.meier@enclustra.com>
+                David Andrey <david.andrey@netmodule.com>
