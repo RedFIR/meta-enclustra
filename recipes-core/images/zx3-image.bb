@@ -23,7 +23,7 @@ IMAGE_INSTALL_append += " \
                 nfs-utils \
                 tcpdump \
                 nano \
-                netperf \
+                iperf \
                 i2c-tools \
                 "
 
